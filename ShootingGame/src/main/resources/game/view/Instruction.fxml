@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.controller.InstructionController">
+   <children>
+      <Circle fill="PINK" layoutX="50.0" layoutY="50.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0" />
+      <Label layoutX="92.0" layoutY="31.0" styleClass="label-bright" text="Player" AnchorPane.leftAnchor="120.0" />
+      <Circle fill="YELLOW" layoutX="55.0" layoutY="129.0" radius="40.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="110.0" />
+      <Circle fill="PINK" layoutX="80.0" layoutY="320.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="280.0" />
+      <Circle fill="WHITE" layoutX="126.0" layoutY="235.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="215.0" />
+      <Label layoutX="125.0" layoutY="142.0" styleClass="label-bright" text="Enemy" AnchorPane.leftAnchor="120.0" />
+      <Label layoutX="122.0" layoutY="227.0" styleClass="label-bright" text="Boss" AnchorPane.leftAnchor="120.0" />
+      <Label layoutX="100.0" layoutY="276.0" styleClass="label-bright" text="Projectiles" AnchorPane.leftAnchor="120.0" />
+      <Button layoutX="318.0" layoutY="34.0" mnemonicParsing="false" text="W" AnchorPane.leftAnchor="325.0" AnchorPane.topAnchor="20.0" />
+      <Button layoutX="318.0" layoutY="97.0" mnemonicParsing="false" text="S" AnchorPane.leftAnchor="325.0" AnchorPane.topAnchor="60.0" />
+      <Button layoutX="329.0" layoutY="177.0" mnemonicParsing="false" text="A" AnchorPane.leftAnchor="257.0" AnchorPane.topAnchor="60.0" />
+      <Button layoutX="329.0" layoutY="255.0" mnemonicParsing="false" text="D" AnchorPane.leftAnchor="392.0" AnchorPane.topAnchor="60.0" />
+      <Button layoutX="310.0" layoutY="124.0" mnemonicParsing="false" text="SHIFT" AnchorPane.leftAnchor="310.0" AnchorPane.topAnchor="104.0" />
+      <Button layoutX="326.0" layoutY="197.0" mnemonicParsing="false" text="R" />
+      <Button layoutX="326.0" layoutY="239.0" mnemonicParsing="false" text="Q" AnchorPane.leftAnchor="326.0" AnchorPane.topAnchor="239.0" />
+      <Button layoutX="309.0" layoutY="150.0" mnemonicParsing="false" text="SPACE" AnchorPane.leftAnchor="309.0" AnchorPane.topAnchor="150.0" />
+      <Label layoutX="488.0" layoutY="53.0" styleClass="label-bright" text="Moving" />
+      <Label layoutX="493.0" layoutY="109.0" styleClass="label-bright" text="Shoot" />
+      <Label layoutX="494.0" layoutY="163.0" styleClass="label-bright" text="Pause" />
+      <Label layoutX="489.0" layoutY="202.0" styleClass="label-bright" text="Restart" />
+      <Label layoutX="498.0" layoutY="244.0" styleClass="label-bright" text="Quit" />
+      <Button layoutX="200.0" layoutY="344.0" mnemonicParsing="false" onAction="#handleOk" prefWidth="200.0" text="OK" />
+      <Button layoutX="278.0" layoutY="279.0" mnemonicParsing="false" text="Mouse Left Click" />
+      <Label layoutX="500.0" layoutY="284.0" styleClass="label-bright" text="Skill" />
+   </children>
+</AnchorPane>
